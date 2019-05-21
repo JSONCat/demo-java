@@ -6,6 +6,6 @@ package com.funtl.hello.spring.service;
  * @author wuyiwen
  * @createDate 2019/5/17
  */
-public interface TestSetvice {
+public interface UserSetvice {
   void sayHi();
 }
