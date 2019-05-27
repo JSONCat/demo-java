@@ -8,7 +8,6 @@
     <artifactId>my-shop</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
     <modules>
         <module>my-shop-dependencies</module>
         <module>my-shop-commons</module>
