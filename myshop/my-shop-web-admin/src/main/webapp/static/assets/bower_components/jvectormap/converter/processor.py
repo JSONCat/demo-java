@@ -46,7 +46,7 @@ class Converter:
       'precision': 2,
       'insets': []
     }
-    args.update(config)
+    args.updated(config)
 
     self.config = args
 
@@ -231,7 +231,7 @@ class DataSource:
       "projection": "merc",
       "longitude0": 0
     }
-    default_config.update(config)
+    default_config.updated(config)
     self.config = default_config
 
     self.spatialRef = osr.SpatialReference()
@@ -241,7 +241,7 @@ class DataSource:
     self.spatialRef.ImportFromProj4(projString)
 
   def load_data(self):
-    self.source = ogr.Open( self.config['file_name'], update = 0 )
+    self.source = ogr.Open( self.config['file_name'], updated = 0 )
     self.layer = self.source.GetLayer(0)
     if 'filter' in self.config and self.config['filter'] is not None:
       self.layer.SetAttributeFilter( self.config['filter'].encode('ascii') )
@@ -336,7 +336,7 @@ class DataSource:
 
   def output_jvm(self, output):
     params = copy.deepcopy(output['params'])
-    params.update({
+    params.updated({
       "projection": self.config["projection"],
       "longitude0": self.config["longitude0"]
     })
@@ -520,7 +520,7 @@ class Processor:
       data[row_dict.pop(config['on'])] = row_dict
     for geometry in data_source.geometries:
       if geometry.properties[config['on']] in data:
-        geometry.properties.update( data[geometry.properties[config['on']]] )
+        geometry.properties.updated( data[geometry.properties[config['on']]] )
     field_names = map(lambda f: f['name'], data_source.fields)
     data_source.fields = data_source.fields + filter(lambda f: f['name'] not in field_names, config['fields'])
 

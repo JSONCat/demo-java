@@ -36,7 +36,7 @@
 * Слайдер пишет свое значение прямо в value исходного поля input, что позволяет вставить сладер прямо внутрь любой формы
 * Любой параметр слайдера можно так же задать через data-атрибут (например data-min="10")
 * Слайдер поддерживает параметр disabled, позволяет делать слайдер неактивным
-* Слайдер поддерживает внешние методы (update, reset и remove), позволяющие управлять слайдером уже после создания
+* Слайдер поддерживает внешние методы (updated, reset и remove), позволяющие управлять слайдером уже после создания
 * Для продвинутых пользователей есть поддержка колбэков (onStart, onChange, onFinish, onUpdate). Слайдер передает свои значения в эти функции первым аргументом в виде объекта
 * Слайдер поддерживает работу с датой и временем
 
@@ -171,7 +171,7 @@ $("#example_id").ionRangeSlider();
 | `onStart` | `-` | `null` | function | Callback. Is called on slider start. Gets all slider data as a 1st attribute |
 | `onChange` | `-` | `null` | function | Callback. IS called on each values change. Gets all slider data as a 1st attribute |
 | `onFinish` | `-` | `null` | function | Callback. Is called than user releases handle. Gets all slider data as a 1st attribute |
-| `onUpdate` | `-` | `null` | function | Callback. Is called than slider is modified by external methods `update` or `reset` |
+| `onUpdate` | `-` | `null` | function | Callback. Is called than slider is modified by external methods `updated` or `reset` |
 
 
 
@@ -249,7 +249,7 @@ slider.reset();
 Всего существует 3 публичных метода:
 ```javascript
 // UPDATE - обновляет значения слайдера (можно менять любые значения)
-slider.update({
+slider.updated({
     from: 300,
     to: 400
 });

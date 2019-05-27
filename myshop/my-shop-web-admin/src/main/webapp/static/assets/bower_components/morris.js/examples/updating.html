@@ -39,11 +39,11 @@ var graph = Morris.Line({
     ymax: 1.0,
     hideHover: true
 });
-function update() {
+function updated() {
   nReloads++;
   graph.setData(data(5 * nReloads));
   $('#reloadStatus').text(nReloads + ' reloads');
 }
-setInterval(update, 100);
+setInterval(updated, 100);
 </pre>
 </body>

@@ -37,7 +37,7 @@ Here's what did change in an incompatible way:
 Another technically compatible change that nonetheless might need attention:
 
 - The structure of the NPM package was refactored, so if you had installed it
-  locally, you'll have to update your paths. The usual `require('highlight.js')`
+  locally, you'll have to updated your paths. The usual `require('highlight.js')`
   works as before. This is contributed by [Dmitry Smolin][].
 
 New features:
@@ -226,7 +226,7 @@ Other notable changes:
     - @-properties and classes in CoffeeScript
     - E4X in JavaScript (by [Oleg Efimov][oe])
     - new keywords in Perl (by [Kirk Kimmel][kk])
-    - big Ruby syntax update (by [Vasily Polovnyov][vast])
+    - big Ruby syntax updated (by [Vasily Polovnyov][vast])
     - small fixes in Bash
 
 - Also Oleg Efimov did a great job of moving all the docs for language and style
@@ -271,7 +271,7 @@ A Summer crop:
 
 ## Version 7.0
 
-The reason for the new major version update is a global change of keyword syntax
+The reason for the new major version updated is a global change of keyword syntax
 which resulted in the library getting smaller once again. For example, the
 hosted build is 2K less than at the previous version while supporting two new
 languages.

@@ -85,7 +85,7 @@
 
 ### Version 2.0.2: December 02, 2014
 * Issues done: #143, #148, #153, #155, #159
-* API update.
+* API updated.
 
 ### Version 2.0.1: November 15, 2014
 * Some bugs fixed

@@ -1,5 +1,6 @@
 package com.funtl.my.shop.web.admin.web.interceptor;
 
+import com.funtl.my.shop.domain.TbUser;
 import com.funtl.my.shop.domain.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,9 +19,9 @@ import static com.funtl.my.shop.commons.constant.ConstantUtils.SESSION_USER;
 public class LoginInterceptor implements HandlerInterceptor {
   @Override
   public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-    User user = (User)httpServletRequest.getSession().getAttribute(SESSION_USER);
+    TbUser tbUser = (TbUser)httpServletRequest.getSession().getAttribute(SESSION_USER);
     //未登录
-    if (user == null ) {
+    if (tbUser == null ) {
       httpServletResponse.sendRedirect("/login");
       return false;
     }

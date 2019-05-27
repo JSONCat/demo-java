@@ -35,6 +35,8 @@
         <mybatis.version>3.2.8</mybatis.version>
         <mybatis.spring.version>1.3.1</mybatis.spring.version>
         <mybatis.jdbc.version>4.3.17.RELEASE</mybatis.jdbc.version>
+        <junit.version>4.12</junit.version>
+        <lombok.version>1.18.8</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -51,6 +53,19 @@
                 <version>${spring.version}</version>
             </dependency>
             <!-- Spring End -->
+
+            <!-- Junit Test Begin -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <!-- Junit Test End -->
 
             <!-- Servlet Begin -->
             <dependency>
@@ -118,6 +133,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
             <!-- Commons End -->
 

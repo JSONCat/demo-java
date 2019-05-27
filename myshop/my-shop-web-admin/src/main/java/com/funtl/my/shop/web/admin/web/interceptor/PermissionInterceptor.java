@@ -1,5 +1,6 @@
 package com.funtl.my.shop.web.admin.web.interceptor;
 
+import com.funtl.my.shop.domain.TbUser;
 import com.funtl.my.shop.domain.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -25,8 +26,8 @@ public class PermissionInterceptor implements HandlerInterceptor {
   public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
     String method = httpServletRequest.getMethod();
     if ("GET".equals(method)) {
-      User user = (User)httpServletRequest.getSession().getAttribute(SESSION_USER);
-      if (user != null){
+      TbUser tbUser = (TbUser)httpServletRequest.getSession().getAttribute(SESSION_USER);
+      if (tbUser != null){
         httpServletResponse.sendRedirect("/main");
       }
     }

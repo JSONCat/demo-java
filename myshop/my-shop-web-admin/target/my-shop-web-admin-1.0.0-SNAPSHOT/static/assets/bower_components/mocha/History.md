@@ -68,7 +68,7 @@
   * add: set MOCHA_COLORS env var to use colors (#965)
   * add: able to override tests links in html reporters (#776)
   * remove: teamcity reporter (#954)
-  * update: commander dependency to 2.0.0 (#1010)
+  * updated: commander dependency to 2.0.0 (#1010)
   * fix: mocha --ui will try to require the ui if not built in, as --reporter does (#1022)
   * fix: send cursor commands only if isatty (#184, #1003)
   * fix: include assertion message in base reporter (#993, #991)
@@ -78,8 +78,8 @@
 ==================
 
   * add: sort test files with --sort (#813)
-  * update: diff depedency to 1.0.7
-  * update: glob dependency to 3.2.3 (#927)
+  * updated: diff depedency to 1.0.7
+  * updated: glob dependency to 3.2.3 (#927)
   * fix: diffs show whitespace differences (#976)
   * fix: improve global leaks (#783)
   * fix: firefox window.getInterface leak
@@ -91,7 +91,7 @@
 ==================
 
  * remove test.js from .gitignore
- * update included version of ms.js
+ * updated included version of ms.js
 
 1.12.0 / 2013-07-01
 ==================
@@ -160,7 +160,7 @@
   * add instanceof check back for inheriting from Error
   * add component.json
   * add diff.js to browser build
-  * update growl
+  * updated growl
   * fix TAP reporter failures comment :D
 
 1.7.4 / 2012-12-06
@@ -189,7 +189,7 @@
   * add HTML 5 doctype to browser template.
   * add play button to html reporter to rerun a single test
   * add `this.timeout(ms)` as Suite#timeout(ms). Closes #599
-  * update growl dependency to 1.6.x
+  * updated growl dependency to 1.6.x
   * fix encoding of test-case ?grep. Closes #637
   * fix unicode chars on windows
   * fix dom globals in Opera/IE. Closes #243

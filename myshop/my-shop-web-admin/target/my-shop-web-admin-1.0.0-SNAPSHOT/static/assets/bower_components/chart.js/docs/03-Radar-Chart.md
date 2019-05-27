@@ -146,15 +146,15 @@ canvas.onclick = function(evt){
 
 This functionality may be useful for implementing DOM based tooltips, or triggering custom behaviour in your application.
 
-#### .update( )
+#### .updated( )
 
-Calling `update()` on your Chart instance will re-render the chart with any updated values, allowing you to edit the value of multiple existing points, then render those in one animated render loop.
+Calling `updated()` on your Chart instance will re-render the chart with any updated values, allowing you to edit the value of multiple existing points, then render those in one animated render loop.
 
 ```javascript
 myRadarChart.datasets[0].points[2].value = 50;
-// Would update the first dataset's value of 'Sleeping' to be 50
-myRadarChart.update();
-// Calling update now animates the position of Sleeping from 90 to 50.
+// Would updated the first dataset's value of 'Sleeping' to be 50
+myRadarChart.updated();
+// Calling updated now animates the position of Sleeping from 90 to 50.
 ```
 
 #### .addData( valuesArray, label )

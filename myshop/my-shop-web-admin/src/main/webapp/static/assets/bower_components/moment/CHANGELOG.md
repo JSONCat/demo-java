@@ -119,7 +119,7 @@ Bugfixes, new locales, locale fixes etc...
 * [#3506](https://github.com/moment/moment/pull/3506) [bugfix] Fix invalid moments returning valid dates to method calls
 * [#3563](https://github.com/moment/moment/pull/3563) [locale] ca: Change future relative time
 * [#3504](https://github.com/moment/moment/pull/3504) [tests] Fixes [#3463](https://github.com/moment/moment/issues/3463), parseZone not handling Z correctly (tests only)
-* [#3591](https://github.com/moment/moment/pull/3591) [misc] typescript: update typescript to 2.0.8, add strictNullChecks=true
+* [#3591](https://github.com/moment/moment/pull/3591) [misc] typescript: updated typescript to 2.0.8, add strictNullChecks=true
 * [#3597](https://github.com/moment/moment/pull/3597) [misc] Fixed capitalization in nuget spec
 
 ### 2.16.0 [See full changelog](https://gist.github.com/ichernev/17bffc1005a032cb1a8ac4c1558b4994)

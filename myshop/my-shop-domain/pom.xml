@@ -15,5 +15,20 @@
 
     <name>my-shop-domain</name>
     <description></description>
+    <dependencies>
+        <!-- Commons Begin -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <!-- Commons End -->
+
+    </dependencies>
 
 </project>

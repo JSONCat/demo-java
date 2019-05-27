@@ -542,7 +542,7 @@ Fixed Issues:
 * [#13197](https://dev.ckeditor.com/ticket/13197): Fixed: Linked inline [Enhanced Image](https://ckeditor.com/cke4/addon/image2) alignment class is not transferred to the widget wrapper.
 * [#13199](https://dev.ckeditor.com/ticket/13199): Fixed: [Semantic Embed](https://ckeditor.com/cke4/addon/embedsemantic) does not support widget classes.
 * [#13003](https://dev.ckeditor.com/ticket/13003): Fixed: Anchors are uploaded when moving them by drag and drop.
-* [#13032](https://dev.ckeditor.com/ticket/13032): Fixed: When upload is done, notification update should be marked as important.
+* [#13032](https://dev.ckeditor.com/ticket/13032): Fixed: When upload is done, notification updated should be marked as important.
 * [#13300](https://dev.ckeditor.com/ticket/13300): Fixed: The `internalCommit` argument in the [Image](https://ckeditor.com/cke4/addon/image) dialog seems to be never used.
 * [#13036](https://dev.ckeditor.com/ticket/13036): Fixed: Notifications are moved 10px to the right.
 * [#13280](https://dev.ckeditor.com/ticket/13280): [IE8] Fixed: Undo after inline widget drag&drop throws an error.
@@ -585,7 +585,7 @@ New Features:
   * Major features:
     * Support for dropping and pasting files into the editor was introduced. Through a set of new facades for native APIs it is now possible to easily intercept and process inserted files.
     * [File upload tools](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.fileTools) were introduced in order to simplify controlling the loading, uploading and handling server response, properly handle [new upload configuration](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.config-cfg-uploadUrl) options, etc.
-    * [Upload Image](https://ckeditor.com/cke4/addon/uploadimage) widget was introduced to upload dropped images. A base class for the [upload widget](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.fileTools.uploadWidgetDefinition) was exposed, too, to make it simple to create new types of upload widgets which can handle any type of dropped file, show the upload progress and update the content when the process is done. It also handles editing and undo/redo operations when a file is being uploaded and integrates with the [notification aggregator](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.plugins.notificationAggregator) to show progress and success or error.
+    * [Upload Image](https://ckeditor.com/cke4/addon/uploadimage) widget was introduced to upload dropped images. A base class for the [upload widget](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.fileTools.uploadWidgetDefinition) was exposed, too, to make it simple to create new types of upload widgets which can handle any type of dropped file, show the upload progress and updated the content when the process is done. It also handles editing and undo/redo operations when a file is being uploaded and integrates with the [notification aggregator](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.plugins.notificationAggregator) to show progress and success or error.
     * All drag and drop operations were integrated with the editor. All dropped content is passed through the [`editor#paste`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.editor-event-paste) event and a set of new editor events was introduced &mdash; [`dragstart`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.editor-event-dragstart), [`drop`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.editor-event-drop), [`dragend`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.editor-event-dragend).
     * The [Data Transfer](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.plugins.clipboard.dataTransfer) facade was introduced to unify access to data in various types and files. [Data Transfer](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.plugins.clipboard.dataTransfer) is now always available in the [`editor#paste`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.editor-event-paste) event.
     * Switched from the pastebin to using the native clipboard access whenever possible. This solved many issues related to pastebin such as unnecessary scrolling or data loss. Additionally, on copy and cut from the editor the clipboard data is set. Therefore, on paste the editor has access to clean data, undisturbed by the browsers.
@@ -1282,7 +1282,7 @@ Fixed Issues:
 * [#10291](https://dev.ckeditor.com/ticket/10291): [WebKit] Space after a filling character should be secured.
 * [#10330](https://dev.ckeditor.com/ticket/10330): [WebKit] The filling character is not removed on `keydown` in specific cases.
 * [#10285](https://dev.ckeditor.com/ticket/10285): Fixed: Styled text pasted from MS Word causes an infinite loop.
-* [#10131](https://dev.ckeditor.com/ticket/10131): Fixed: [`undoManager.update()`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.plugins.undo.UndoManager-method-update) does not refresh the command state.
+* [#10131](https://dev.ckeditor.com/ticket/10131): Fixed: [`undoManager.updated()`](https://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR.plugins.undo.UndoManager-method-updated) does not refresh the command state.
 * [#10337](https://dev.ckeditor.com/ticket/10337): Fixed: Unable to remove `<s>` using [Remove Format](https://ckeditor.com/cke4/addon/removeformat).
 
 ## CKEditor 4.1
@@ -1357,7 +1357,7 @@ Fixed Issues:
 
 Fixed Issues:
 
-* Security update: Added protection against XSS attack and possible path disclosure in the PHP sample.
+* Security updated: Added protection against XSS attack and possible path disclosure in the PHP sample.
 
 ## CKEditor 4.0.1
 

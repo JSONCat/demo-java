@@ -285,7 +285,7 @@ immediateUpdates
 
 Boolean. Default: false
 
-If true, selecting a year or month in the datepicker will update the input value immediately. Otherwise, only selecting a day of the month will update the input value immediately.
+If true, selecting a year or month in the datepicker will updated the input value immediately. Otherwise, only selecting a day of the month will updated the input value immediately.
 
 
 inputs

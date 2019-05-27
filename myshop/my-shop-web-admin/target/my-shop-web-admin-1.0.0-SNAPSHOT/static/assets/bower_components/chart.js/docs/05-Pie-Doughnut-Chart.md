@@ -121,15 +121,15 @@ canvas.onclick = function(evt){
 
 This functionality may be useful for implementing DOM based tooltips, or triggering custom behaviour in your application.
 
-#### .update( )
+#### .updated( )
 
-Calling `update()` on your Chart instance will re-render the chart with any updated values, allowing you to edit the value of multiple existing points, then render those in one animated render loop.
+Calling `updated()` on your Chart instance will re-render the chart with any updated values, allowing you to edit the value of multiple existing points, then render those in one animated render loop.
 
 ```javascript
 myDoughnutChart.segments[1].value = 10;
-// Would update the first dataset's value of 'Green' to be 10
-myDoughnutChart.update();
-// Calling update now animates the circumference of the segment 'Green' from 50 to 10.
+// Would updated the first dataset's value of 'Green' to be 10
+myDoughnutChart.updated();
+// Calling updated now animates the circumference of the segment 'Green' from 50 to 10.
 // and transitions other segment widths
 ```
 
@@ -154,5 +154,5 @@ Calling `removeData(index)` on your Chart instance will remove segment at that p
 
 ```javascript
 myDoughnutChart.removeData();
-// Other segments will update to fill the empty space left.
+// Other segments will updated to fill the empty space left.
 ```

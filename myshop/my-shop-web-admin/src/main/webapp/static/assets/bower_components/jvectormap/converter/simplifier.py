@@ -16,7 +16,7 @@ infile = '/Users/kirilllebedev/Maps/50m-admin-0-countries/ne_50m_admin_0_countri
 outfile = 'map.shp'
 
 # Open the datasource to operate on.
-in_ds = ogr.Open( infile, update = 0 )
+in_ds = ogr.Open( infile, updated = 0 )
 in_layer = in_ds.GetLayer( 0 )
 in_defn = in_layer.GetLayerDefn()
 

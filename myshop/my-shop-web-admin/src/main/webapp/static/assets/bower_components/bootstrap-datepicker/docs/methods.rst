@@ -34,7 +34,7 @@ Arguments: None
 Hide the picker.
 
 
-update
+updated
 ------
 
 Arguments:
@@ -49,17 +49,17 @@ If ``date`` arguments are provided and they are Date objects, it is assumed to b
 
 ::
 
-    $('.datepicker').datepicker('update');
-    $('.datepicker').datepicker('update', '2011-03-05');
-    $('.datepicker').datepicker('update', '2011-03-05', '2011-03-07');
-    $('.datepicker').datepicker('update', new Date(2011, 2, 5));
-    $('.datepicker').datepicker('update', [new Date(2011, 2, 5), new Date(2011, 2, 7)]);
+    $('.datepicker').datepicker('updated');
+    $('.datepicker').datepicker('updated', '2011-03-05');
+    $('.datepicker').datepicker('updated', '2011-03-05', '2011-03-07');
+    $('.datepicker').datepicker('updated', new Date(2011, 2, 5));
+    $('.datepicker').datepicker('updated', [new Date(2011, 2, 5), new Date(2011, 2, 7)]);
 
-To reset the datepicker and clear the selected date, pass an empty string with ``update``:
+To reset the datepicker and clear the selected date, pass an empty string with ``updated``:
 
 ::
 
-    $('.datepicker').datepicker('update', '');
+    $('.datepicker').datepicker('updated', '');
 
 
 setDate

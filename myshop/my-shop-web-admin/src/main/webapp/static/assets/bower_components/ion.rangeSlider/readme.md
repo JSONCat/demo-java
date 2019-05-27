@@ -35,7 +35,7 @@ Ion.RangeSlider. Is an easy, flexible and responsive range slider with tons of o
 * Slider writes its value right into input value field. This makes it easy to use in any html form
 * Any slider value can be set through input data-attribute (eg. data-min="10")
 * Slider supports disable param. You can set it true to make slider inactive
-* Slider supports external methods (update, reset and remove) to control it after creation
+* Slider supports external methods (updated, reset and remove) to control it after creation
 * For advanced users slider has callbacks (onStart, onChange, onFinish, onUpdate). Slider pastes all its params to callback first argument as object
 * Slider supports date and time
 
@@ -173,7 +173,7 @@ Here you can find bunch of advanced JSFIDDLE demos with different, non-standart 
 | `onStart` | `-` | `null` | function | Callback. Is called on slider start. Gets all slider data as a 1st attribute |
 | `onChange` | `-` | `null` | function | Callback. IS called on each values change. Gets all slider data as a 1st attribute |
 | `onFinish` | `-` | `null` | function | Callback. Is called when user releases handle. Gets all slider data as a 1st attribute |
-| `onUpdate` | `-` | `null` | function | Callback. Is called when slider is modified by external methods `update` or `reset` |
+| `onUpdate` | `-` | `null` | function | Callback. Is called when slider is modified by external methods `updated` or `reset` |
 
 
 
@@ -249,7 +249,7 @@ slider.reset();
 There are 3 public methods:
 ```javascript
 // UPDATE - updates slider to any new values
-slider.update({
+slider.updated({
     from: 300,
     to: 400
 });

@@ -1017,7 +1017,7 @@ series.color, and "seriesIndex" is 0. Note that plugins and options
 that transform the data can shift the indexes from what you specified
 in the original data array.
 
-If you use the above events to update some other information and want
+If you use the above events to updated some other information and want
 to clear out that info in case the mouse goes away, you'll probably
 also need to listen to "mouseout" events on the placeholder div.
 
@@ -1131,7 +1131,7 @@ can call:
 
  - triggerRedrawOverlay()
 
-    Schedules an update of an overlay canvas used for drawing
+    Schedules an updated of an overlay canvas used for drawing
     interactive things like a selection and point highlights. This
     is mostly useful for writing plugins. The redraw doesn't happen
     immediately, instead a timer is set to catch multiple successive
@@ -1426,7 +1426,7 @@ hooks in the plugins bundled with Flot.
     ```
 
     Interesting events include click, mousemove, mouseup/down. You can
-    use all jQuery events. Usually, the event handlers will update the
+    use all jQuery events. Usually, the event handlers will updated the
     state by drawing something (add a drawOverlay hook and call
     triggerRedrawOverlay) or firing an externally visible event for
     user code. See the crosshair plugin for an example.

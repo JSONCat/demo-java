@@ -1,11 +1,14 @@
 package com.funtl.my.shop.web.admin.web.controller;
 
 
+import com.funtl.my.shop.domain.TbUser;
 import com.funtl.my.shop.domain.User;
-import com.funtl.my.shop.web.admin.service.UserService;
+import com.funtl.my.shop.web.admin.service.TbUserService;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -25,7 +28,7 @@ import static com.funtl.my.shop.commons.constant.ConstantUtils.SESSION_USER;
 public class LoginController {
   final static String COOKIE_NAME_USER_INFO = "userinfo";
   @Autowired
-  private UserService userService;
+  private TbUserService tbUserService;
   
   /**
    * 登录页
@@ -46,15 +49,15 @@ public class LoginController {
    * @return
    */
   @RequestMapping(value = "/login", method = RequestMethod.POST)
-  public String login(@RequestParam(required = true) String email, @RequestParam(required = true)String password, HttpServletRequest request){
-    User user = userService.login(email, password);
+  public String login(@RequestParam(required = true) String email, @RequestParam(required = true)String password, HttpServletRequest request, Model model){
+    TbUser user = tbUserService.login(email, password);
     if (user == null) {
+      model.addAttribute("error","登录名或密码错误，请重新输入");
       return login();
     } else {
       request.getSession().setAttribute(SESSION_USER,user);
       return "redirect:/main";
     }
-   
   }
   
   /**

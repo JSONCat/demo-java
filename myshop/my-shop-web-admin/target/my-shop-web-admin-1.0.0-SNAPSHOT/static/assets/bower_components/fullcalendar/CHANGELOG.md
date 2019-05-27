@@ -78,7 +78,7 @@ Features:
 - `agendaEventMinHeight` for guaranteeing height (#961, #3788) thx @Stafie
 - `columnHeader` can be set to `false` to hide headings (#3438, #3787) thx @caseyjhol
 - export all View classes (#2851, #3831)
-- `updateEvent`, update complex attributes (#2864)
+- `updateEvent`, updated complex attributes (#2864)
 - Albanian locale (#3847) thx @alensaqe
 
 Bugfixes:
@@ -361,7 +361,7 @@ v2.7.1 (2016-05-01)
 - dayClick not firing on touch devices (#3138)
 - icons for prev/next not working in MS Edge (#2852)
 - fix bad languages troubles with firewalls (#3133, #3132)
-- update all dev dependencies (#3145, #3010, #2901, #251)
+- updated all dev dependencies (#3145, #3010, #2901, #251)
 - git-ignore npm debug logs (#3011)
 - misc automated test updates (#3139, #3147)
 - Google Calendar htmlLink not always defined (#2844)
@@ -1252,7 +1252,7 @@ v1.2 (2009-05-31)
 - expanded API
 	- 'className' CalEvent attribute
 	- 'source' CalEvent attribute
-	- dynamically get/add/remove/update events of current month
+	- dynamically get/add/remove/updated events of current month
 	- locale improvements: change month/day name text
 	- better date formatting ($.fullCalendar.formatDate)
 	- multiple 'event sources' allowed

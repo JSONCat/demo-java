@@ -17,6 +17,7 @@
     <description></description>
 
     <dependencies>
+        <!-- Dependent Model Begin -->
         <dependency>
             <groupId>com.funtl</groupId>
             <artifactId>my-shop-commons</artifactId>
@@ -27,6 +28,7 @@
             <artifactId>my-shop-domain</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <!-- Dependent Model End -->
 
         <!-- Spring Begin -->
         <dependency>
@@ -40,6 +42,19 @@
             <version>${spring.version}</version>
         </dependency>
         <!-- Spring End -->
+
+        <!-- Junit Test Begin -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+        <!-- Junit Test End -->
 
         <!-- Servlet Begin -->
         <dependency>

@@ -165,7 +165,7 @@
    no longer fills out the colors with the remainder of the default.
    (patch by goorpy, issue #1031, pull request #1034)
 
- - Fixed missing update for bar highlights after a zoom or other redraw.
+ - Fixed missing updated for bar highlights after a zoom or other redraw.
    (reported by Paolo Valleri, issue #1030)
 
  - Fixed compatibility with jQuery versions earlier than 1.7.
@@ -379,7 +379,7 @@ The base and overlay canvas are now using the CSS classes "flot-base" and
  - Added support for jQuery 1.9 by removing and replacing uses of $.browser.
    (analysis and patch by Anthony Ryan, pull request #905)
 
- - Pie charts no longer disappear when redrawn during a resize or update.
+ - Pie charts no longer disappear when redrawn during a resize or updated.
    (reported by Julien Bec, issue #656, pull request #910)
 
  - Avoided floating-point precision errors when calculating pie percentages.
@@ -550,7 +550,7 @@ also surfaced, if your graphs are slow in IE, you may want to give it a spin:
    issue 269)
    
    This prevents a memory leak in Chrome and hopefully makes replotting faster
-   for those who are using $.plot instead of .setData()/.draw(). Also update
+   for those who are using $.plot instead of .setData()/.draw(). Also updated
    jQuery to 1.5.1 to prevent IE leaks fixed in jQuery.
 
  - New real-time line chart example.

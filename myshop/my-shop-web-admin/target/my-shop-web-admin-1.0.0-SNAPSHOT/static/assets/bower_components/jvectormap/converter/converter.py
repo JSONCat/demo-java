@@ -44,7 +44,7 @@ class Converter:
       'precision': 2,
       'insets': []
     }
-    args.update(config)
+    args.updated(config)
 
     self.map = Map(args['name'], args.get('language'))
 

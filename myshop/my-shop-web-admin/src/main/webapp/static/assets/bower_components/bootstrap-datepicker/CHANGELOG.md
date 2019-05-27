@@ -36,7 +36,7 @@ Changelog
  * add tests for setDatesDisabled function (#1983)
  * resolves bug on days when DST is added. (#2009)
  * XHTML fixes (#1998)
- * update grunt and other dev-dependencies (#2111)
+ * updated grunt and other dev-dependencies (#2111)
  * Use display:table-cell instead of display:block for today, clear and title (#2121)
  * moved assumeNearbyYear to correct location (#2140)
  * move `jquery` to `peerDependencies` from `dependencies` (#2163)
@@ -78,7 +78,7 @@ Changelog
  * [Doc] Keyboard navigation is not supported for embedded / inline type (#2002)
  * Removed reference to stefan petre (#2031)
  * Improve defaultViewDate documentation (#2052)
- * Add notes about multiple dates and examples for update method (#2060)
+ * Add notes about multiple dates and examples for updated method (#2060)
  * Add Code Of Conduct (#2095)
  * Update install instructions on README.md (#2160)
 
@@ -202,7 +202,7 @@ Locale changes:
  * Better Polish language date shortcuts translation and default date format
  * lowercase danish translation
  * Add Mongolian localization
- * update Hungarian translation
+ * updated Hungarian translation
 
 Docs:
  * added day to end-date to avoid confusion about example
@@ -262,7 +262,7 @@ Translations:
 Docs:
  * added example for inputs option
  * added missing documentation for embedded mode
- * Add additional documentaion to update method
+ * Add additional documentaion to updated method
 
 1.3.1
 -----
@@ -377,7 +377,7 @@ Bug squashed:
 * Falsey values for `startDate` and `endDate` translate to `-Infinity` and `Infinity`, respectively (effectively, falsey values mean "no bounds")
 * Fixed `autoclose` for non-input, non-component elements
 * Fixed 50% param in `mix()` less function -- expands compatibility with less compilers
-* Fixed `update` method to update the selected date
+* Fixed `updated` method to updated the selected date
 * `beforeShowDay` was getting UTC dates, now it gets local dates (all dates that developers are given should be in local time, not UTC).
 * `startDate` and `endDate` were a bit confused when given `new Date()` -- they would not allow today to be selected (the range should be inclusive), they would change whether it was selectable based on local time, etc.  These quirks should be fixed now.  They both also now expect local dates (which will then be time-zeroed and converted to UTC).
 * Fixed selected date not being automatically constrained to the specified range when `setStartDate` and `setEndDate` were called.
@@ -450,15 +450,15 @@ Locale changes:
 
 Potentially backward-incompatible changes:
 * Options revamp:
-  * This fixes bugs in the correlation of some data-attrs to their associated option names.  If you use `data-date-weekstart`, `data-date-startdate`, or `data-date-enddate`, you should update these to `data-date-week-start`, `data-date-start-date`, or `data-date-end-date`, respectively.
-  * All options for datepicker are now properties on the datepicker's `o` property; options are no longer stored on the Datepicker instance itself.  If you have code that accesses options stored on the datepicker instance (eg, `datepicker.format`), you will need to update it to access those options via the `o` property (eg, `datepicker.o.format`).  "Raw" options are available via the `_o` property.
+  * This fixes bugs in the correlation of some data-attrs to their associated option names.  If you use `data-date-weekstart`, `data-date-startdate`, or `data-date-enddate`, you should updated these to `data-date-week-start`, `data-date-start-date`, or `data-date-end-date`, respectively.
+  * All options for datepicker are now properties on the datepicker's `o` property; options are no longer stored on the Datepicker instance itself.  If you have code that accesses options stored on the datepicker instance (eg, `datepicker.format`), you will need to updated it to access those options via the `o` property (eg, `datepicker.o.format`).  "Raw" options are available via the `_o` property.
 
 1.0.2
 ----------
 
 Small optimizations release
 
-* Reduced the number of times `update` is called on initialization.
+* Reduced the number of times `updated` is called on initialization.
 * Datepicker now detaches the picker dropdown when it is hidden, and appends it when shown.  This removes the picker from the DOM when it is not in use.
 * No longer listens to document/window events unless picker is visible.
 
