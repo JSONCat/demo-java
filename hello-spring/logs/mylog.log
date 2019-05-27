@@ -1,0 +1,4 @@
+2019-05-17 17:11:57,386 (LogController.java:18) com.Mylog - 我是日志
+2019-05-17 17:14:59,591 ERROR [com.Mylog] - 我是日志
+2019-05-17 17:20:16,541 (LogController.java:18) com.Mylog - 我是日志
+2019-05-17 17:45:15,149 (LogController.java:18) com.Mylog - 我是日志

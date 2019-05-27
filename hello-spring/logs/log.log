@@ -1,0 +1,21 @@
+2019-05-17 15:15:51,021 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6504e3b2: startup date [Fri May 17 15:15:51 CST 2019]; root of context hierarchy
+2019-05-17 15:15:51,097 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2019-05-17 15:16:05,000 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6504e3b2: startup date [Fri May 17 15:16:04 CST 2019]; root of context hierarchy
+2019-05-17 15:16:05,078 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2019-05-17 15:16:23,823 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6504e3b2: startup date [Fri May 17 15:16:23 CST 2019]; root of context hierarchy
+2019-05-17 15:16:23,903 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2019-05-17 15:16:24,112 INFO [com.funtl.hello.spring.controller.TestController] - slf4j for info
+2019-05-17 15:16:24,112 ERROR [com.funtl.hello.spring.controller.TestController] - slf4j for error
+2019-05-17 15:16:24,112 WARN [com.funtl.hello.spring.controller.TestController] - slf4j for warn
+2019-05-17 15:16:24,114 INFO [com.funtl.hello.spring.controller.TestController] - slf4j message is : Hello SLF4J
+2019-05-17 16:28:35,831 ERROR [com.logger.job] - 我是日志
+2019-05-17 16:41:43,452 ERROR [com.logger.job] - 我是日志
+2019-05-17 17:03:15,021 ERROR [.com.MyLog] - 我是日志
+2019-05-17 17:04:23,160 ERROR [.com.MyLog] - 我是日志
+2019-05-17 17:10:37,948 ERROR [.com.MyLog] - 我是日志
+2019-05-17 17:11:00,498 ERROR [com.MyLog] - 我是日志
+2019-05-17 17:11:30,701 ERROR [com.MyLog] - 我是日志
+2019-05-17 17:11:57,386 ERROR [com.Mylog] - 我是日志
+2019-05-17 17:14:59,591 ERROR [com.Mylog] - 我是日志
+2019-05-17 17:20:16,541 ERROR [com.Mylog] - 我是日志
+2019-05-17 17:45:15,149 ERROR [com.Mylog] - 我是日志
