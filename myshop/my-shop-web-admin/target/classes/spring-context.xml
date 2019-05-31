@@ -8,4 +8,11 @@
   <context:component-scan base-package="com.funtl.my.shop.web.admin">
     <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
   </context:component-scan>
+
+<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <property name="locations">
+        <value>classpath:myshop.properties</value>
+    </property>
+</bean>
+
 </beans>
