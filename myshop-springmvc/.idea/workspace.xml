@@ -7,104 +7,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2422fb7c-f118-4a1e-98ec-0dad4bba18a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/artifacts/hello_hessian_client_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/artifacts/hello_hessian_client_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/hello-hessian-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__com_caucho_hessian_4_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_orm_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_test_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/main/java/com/funtl/hello/hessian/service/ClientUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/main/resources/spring-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/main/webapp/WEB-INF/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-hessian-client/src/test/java/com/funtl/hello/hessian/test/TestHessian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__com_alibaba_fastjson_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_json_json_20140107.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_test_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/java/com/funtl/my/shop/web/admin/web/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/springServlet-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-hessian-server-client/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-hessian-server-client/.idea/libraries/Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-hessian/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-hessian/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-spring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/doc/FreeMarker2.3.19手册—中文版.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/artifacts/hello_spring_handlermapping_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/artifacts/hello_spring_handlermapping_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/hello-spring-handlermapping.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/java/com/funtl/hello/beanname/viewresolver/controller/BeanNameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/java/com/funtl/hello/beanname/viewresolver/view/HelloView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/com/funtl/hello/spring/handlermapping/controller/BeanNameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/com/funtl/hello/spring/handlermapping/view/HelloView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/com/funtl/hello/spring/handlermapping/controller/BeanNameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/com/funtl/hello/spring/handlermapping/view/HelloView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-ssmdemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-ssmdemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-ssmdemo/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-ssmdemo/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-ssmdemo/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-ssmdemo/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-ssmdemo/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-ssmdemo/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/artifacts/my_shop_web_admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/.idea/artifacts/my_shop_web_admin_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-hessian-client/.idea/libraries/Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-dependencies/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/my-shop-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/my-shop-web-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/resources/spring-context-druid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/resources/spring-context-druid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/resources/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/resources/spring-context-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/classes/spring-context-druid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/classes/spring-context-druid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/classes/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/classes/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context-druid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context-druid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.17.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -240,12 +209,14 @@
     <session id="2143136412">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -316,8 +287,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="414">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -346,8 +317,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/funtl/my/shop/web/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="48">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1194#1195#0" expanded="true" />
@@ -996,9 +967,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1022,42 +990,15 @@
               <item name="myshop-springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop-springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop-springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop-springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop-springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop-springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop-springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop-springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop-springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1271,6 +1212,8 @@
       <workItem from="1559183230162" duration="898000" />
       <workItem from="1559209388217" duration="14000" />
       <workItem from="1559282135507" duration="14000" />
+      <workItem from="1559304347372" duration="1709000" />
+      <workItem from="1559368154817" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1558424594625</created>
@@ -1283,13 +1226,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43359000" />
+    <option name="totallyTimeSpent" value="46335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.222103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.22854078" />
       <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.2725322" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50230414" side_tool="true" weight="0.26502147" />
@@ -1497,18 +1440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/funtl/my/shop/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -1619,10 +1550,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/funtl/my/shop/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="414">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
