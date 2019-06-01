@@ -7,73 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c837b362-316d-4b8b-9ddf-e11e55e1e5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/FreeMarker2.3.19手册—中文版.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/artifacts/hello_spring_handlermapping_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/artifacts/hello_spring_handlermapping_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/hello-spring-handlermapping.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/java/com/funtl/hello/beanname/viewresolver/controller/BeanNameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/java/com/funtl/hello/beanname/viewresolver/view/HelloView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/resources/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/com/funtl/hello/spring/handlermapping/controller/BeanNameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/com/funtl/hello/spring/handlermapping/view/HelloView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/com/funtl/hello/spring/handlermapping/controller/BeanNameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/com/funtl/hello/spring/handlermapping/view/HelloView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myshop-springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-springmvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,22 +79,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="ftl" value="62" />
+          <entry key="ftl" value="66" />
           <entry key="java" value="118" />
-          <entry key="xml" value="587" />
+          <entry key="xml" value="593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="FTL" value="62" />
+          <entry key="FTL" value="66" />
           <entry key="JAVA" value="118" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="587" />
+          <entry key="XML" value="593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
+          <entry key="class" value="8" />
           <entry key="ftl" value="2" />
           <entry key="java" value="4" />
           <entry key="properties" value="1" />
@@ -166,7 +103,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
+          <entry key="CLASS" value="8" />
           <entry key="FTL" value="2" />
           <entry key="JAVA" value="4" />
           <entry key="Properties" value="1" />
@@ -180,17 +117,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="276">
               <caret line="12" column="21" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="46">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -198,8 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="160">
+              <caret line="19" column="96" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/view/freemarker/FreeMarkerConfigurer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -255,8 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springmvc/freemarker/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="16" selection-start-line="16" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,11 +223,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userinfo.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="161">
+              <caret line="7" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -313,6 +259,7 @@
       <find>configuration</find>
       <find>request</find>
       <find>#&lt;</find>
+      <find>DEFAULT_INCOMPATIBLE_IMPROVEMENTS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -340,11 +287,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/funtl/SpringMVC_Freemarker/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/may.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springmvc/freemarker/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springmvc/freemarker/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userinfo.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -795,11 +742,6 @@
             <path>
               <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -807,6 +749,46 @@
               <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-springmvc-freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-springmvc-freemarker" type="b2602c69:ProjectViewProjectNode" />
@@ -1016,12 +998,12 @@
       <workItem from="1559286648526" duration="5083000" />
       <workItem from="1559305522359" duration="321000" />
       <workItem from="1559305980105" duration="2225000" />
-      <workItem from="1559352775287" duration="9449000" />
+      <workItem from="1559352775287" duration="10337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17078000" />
+    <option name="totallyTimeSpent" value="17966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1038,8 +1020,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45046082" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40207374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.218894" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.47235024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1175,41 +1157,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userinfo.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springmvc/freemarker/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="16" selection-start-line="16" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/view/freemarker/FreeMarkerConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="124">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc_freemarker.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="160">
+          <caret line="19" column="96" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="276">
           <caret line="12" column="21" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userinfo.ftl">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="46">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>

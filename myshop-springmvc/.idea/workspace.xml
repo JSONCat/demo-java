@@ -7,73 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2422fb7c-f118-4a1e-98ec-0dad4bba18a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/doc/FreeMarker2.3.19手册—中文版.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/artifacts/hello_spring_handlermapping_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/artifacts/hello_spring_handlermapping_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/hello-spring-handlermapping.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/java/com/funtl/hello/beanname/viewresolver/controller/BeanNameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/java/com/funtl/hello/beanname/viewresolver/view/HelloView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/resources/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/com/funtl/hello/spring/handlermapping/controller/BeanNameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/com/funtl/hello/spring/handlermapping/view/HelloView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/com/funtl/hello/spring/handlermapping/controller/BeanNameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/com/funtl/hello/spring/handlermapping/view/HelloView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-handlermapping/target/hello-spring-handlermapping/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/src/main/resources/springmvc_freemarker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/src/main/resources/springmvc_freemarker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1213,7 +1150,7 @@
       <workItem from="1559209388217" duration="14000" />
       <workItem from="1559282135507" duration="14000" />
       <workItem from="1559304347372" duration="1709000" />
-      <workItem from="1559368154817" duration="1267000" />
+      <workItem from="1559368154817" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1558424594625</created>
@@ -1226,7 +1163,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46335000" />
+    <option name="totallyTimeSpent" value="46888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

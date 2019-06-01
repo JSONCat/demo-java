@@ -9,7 +9,7 @@
     <properties>
       <spring.version>4.3.17.RELEASE</spring.version>
       <servlet.version>3.1.0</servlet.version>
-      <freemarker.version>2.3.19</freemarker.version>
+      <freemarker.version>2.3.23</freemarker.version>
     </properties>
 
     <dependencies>
