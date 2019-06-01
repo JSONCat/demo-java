@@ -7,10 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2422fb7c-f118-4a1e-98ec-0dad4bba18a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hello-spring-resovler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-spring-resovler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/src/main/resources/springmvc_freemarker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-freemarker/src/main/resources/springmvc_freemarker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/classes/com/springmvc/freemarker/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/classes/com/springmvc/freemarker/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/classes/springmvc_freemarker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/classes/com/springmvc/freemarker/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/classes/com/springmvc/freemarker/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/classes/springmvc_freemarker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/freemarker-2.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/view/userinfo.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-freemarker/target/springmvc-freemarker-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/artifacts/hello_spring_handlermapping_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/artifacts/hello_spring_handlermapping_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/artifacts/hello_spring_handlermapping_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/artifacts/hello_spring_handlermapping_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/hello-spring-handlermapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/hello-spring-handlermapping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-resovler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-springmvc-resovler/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/target/classes/com/funtl/hello/beanname/viewresolver/controller/BeanNameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-springmvc-resovler/target/classes/com/funtl/hello/beanname/viewresolver/view/HelloView.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myshop-springweb-annotaion/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -224,8 +261,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="184">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -948,7 +985,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558689561951" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello-springmvc-resovler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="options.lastSelected" value="preferences.customizations" />
@@ -1150,7 +1187,7 @@
       <workItem from="1559209388217" duration="14000" />
       <workItem from="1559282135507" duration="14000" />
       <workItem from="1559304347372" duration="1709000" />
-      <workItem from="1559368154817" duration="1820000" />
+      <workItem from="1559368154817" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1558424594625</created>
@@ -1163,7 +1200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46888000" />
+    <option name="totallyTimeSpent" value="47285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1501,8 +1538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="184">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
