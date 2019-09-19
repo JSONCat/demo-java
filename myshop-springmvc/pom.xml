@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.funtl</groupId>
-    <artifactId>leeshop</artifactId>
+    <artifactId>my-shop</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

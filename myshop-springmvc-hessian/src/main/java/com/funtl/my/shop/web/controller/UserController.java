@@ -26,7 +26,7 @@ public class UserController {
   @RequestMapping(value = "/add")
   @ResponseBody
   public String addUser(){
-    hessianService.notice("新增用户成功");
+    
     return "json";
   }
   

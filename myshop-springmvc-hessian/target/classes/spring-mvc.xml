@@ -17,8 +17,8 @@
     </context:component-scan>
 
     <!-- 默认的注解映射的支持 -->
-  <mvc:annotation-driven>
-  </mvc:annotation-driven>
+  <mvc:annotation-driven />
+
 
   <!-- 1:BeanNameUrlHandlerMapping -->
   <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
@@ -33,33 +33,38 @@
   <bean name="/beanNameUrlController" class="com.funtl.my.shop.web.controller.HomeController"/>
 
 
+  <!-- 静态资源映射 -->
+  <mvc:resources mapping="/static/**" location="/static/" cache-period="31536000"/>
+
+  <!-- hessian server bean config-->
+  <bean id="hessianservice" class="com.funtl.my.shop.service.impl.HessianServerServiceImpl"></bean>
+
+
+  <bean name="/hessianservice"  class="org.springframework.remoting.caucho.HessianServiceExporter">
+   <property name="service" ref="hessianservice"/>
+   <property name="serviceInterface" value="com.funtl.my.shop.service.HessianService"/>
+  </bean>
 
 
 
 
 
-   <!-- &lt;!&ndash; 定义视图文件解析 &ndash;&gt;
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="${web.view.prefix}"/>
-        <property name="suffix" value="${web.view.suffix}"/>
-    </bean>-->
-
-    <!-- 静态资源映射 -->
-    <mvc:resources mapping="/static/**" location="/static/" cache-period="31536000"/>
-
-
-
-    <!-- hessian server bean config-->
-    <bean id="hessianservice" class="com.funtl.my.shop.service.impl.HessianServerServiceImpl">
-    </bean>
-
-
-
-   <!-- &lt;!&ndash; HessianService &ndash;&gt;
-    <bean name="/hessianservice"  class="org.springframework.remoting.caucho.HessianServiceExporter">
-     <property name="service" ref="hessianservice"/>
-     <property name="serviceInterface" value="com.funtl.my.shop.service.HessianService"/>
-    </bean>-->
+  <!-- hessian list -->
+	<bean id="sasHessianList" class="org.springframework.beans.factory.config.ListFactoryBean">
+		<property name="targetListClass">
+			<value>java.util.ArrayList</value>
+		</property>
+		<property name="sourceList">
+			<list>
+				<ref bean="hessian127Service" />
+			</list>
+		</property>
+	</bean>
+  <!-- hessian client configuration -->
+	<bean id="hessian127Service" class="org.springframework.remoting.caucho.HessianProxyFactoryBean">
+		<property name="serviceUrl" value="http://localhost:8080/hessianservice" />
+		<property name="serviceInterface" value="com.funtl.my.shop.service.HessianService" />
+	</bean>
 
 
 </beans>

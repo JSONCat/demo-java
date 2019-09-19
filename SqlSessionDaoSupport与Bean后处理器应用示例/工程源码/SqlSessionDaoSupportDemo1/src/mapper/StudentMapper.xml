@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.abc.mapper.StudentMapper">
+    <!-- 作者博客：http://legend2011.blog.51cto.com/ 
+                       作者的MyBatis专栏：http://legend2011.blog.51cto.com/3018495/d-5
+                      欢迎博客留言，和作者多交流 -->
+	<!--association的嵌套的结果映射方式。
+                    实体属性与列的映射  -->
+	<resultMap id="simpleStudent" type="Student">
+		<id property="id" column="s_id" />
+		<result property="name" column="s_name" />
+		<result property="gender" column="s_gender" />
+		<result property="major" column="s_major" />
+		<result property="grade" column="s_grade" />
+	</resultMap>
+	
+	<resultMap id="studentResultMap" type="Student" extends="simpleStudent">
+		<association property="supervisor" javaType="Teacher">
+		    <id property="id"  column="t_id" />
+	        <result property="name" column="t_name"/>
+            <result property="gender" column="t_gender" />
+            <result property="researchArea" column="t_research_area"/> 
+            <result property="title" column="t_title"/>
+		</association> 
+		
+	</resultMap>
+    
+    <!--  为保证学生能够被查询到，select语句采用了左连接。因为学生可能暂时还没有指导老师，在这种情况下，若直接连接查询则会连学生也查询不到。 -->  
+    <select id="getById" parameterType="int" resultMap="studentResultMap"> 
+		select s.id s_id, s.name s_name, s.gender s_gender, s.major s_major, s.grade 
+		s_grade, t.id t_id, t.name t_name, t.gender t_gender, t.title t_title, t.research_area 
+		t_research_area from student s left join teacher t on s.supervisor_id = t.id 
+		where s.id=#{id}
+	</select>
+	 
+
+     
+    <select id="getBySupervisorId" parameterType="int" resultMap="studentResultMap">
+	    select id s_id, name s_name, gender s_gender, major s_major, grade s_grade
+	    from student where supervisor_id = #{id} 
+	</select> 
+	<!--
+    <resultMap id="studentResultMap" type="Student">
+		<id property="id" column="s_id" />
+		<result property="name" column="s_name" />
+		<result property="gender" column="s_gender" />
+		<result property="major" column="s_major" />
+		<result property="grade" column="s_grade" />
+         column="supervisor_id"不能少。此列的值作为参数传递给要引用的select语句，
+                                   用来查询相应学生的指导教师 的信息。select属性指定要引用的select语句  
+		<association property="supervisor" javaType="Teacher"
+		                  column="supervisor_id" select="getSupervisor"/>
+	</resultMap>
+	-->
+	<select id="getSupervisor" parameterType="int" resultMap="supervisorResultMap">
+		select
+		id as t_id,name as t_name,gender as t_gender,title as t_title,research_area as t_research_area
+		from teacher where id=#{id}
+	</select>
+	
+	<!--教师实体映射 -->
+	<resultMap id="supervisorResultMap" type="Teacher">
+		<id property="id" column="t_id" />
+		<result property="name" column="t_name" />
+		<result property="gender" column="t_gender" />
+		<result property="researchArea" column="t_research_area" />
+		<result property="title" column="t_title" />
+	</resultMap>
+
+
+	<insert id="add" parameterType="Student" useGeneratedKeys="true"
+		keyProperty="id">
+		insert into student(name,gender,major,grade)
+		values(#{name},#{gender},#{major},#{grade})
+	</insert>
+
+	
+
+	<update id="update" parameterType="Student">
+		update student set
+		name=#{name},
+		gender=#{gender},
+		major=#{major},
+		grade=#{grade}
+		where
+		id=#{id}
+	</update>
+
+	<delete id="delete" parameterType="int">
+		delete from student where
+		id=#{id}
+	</delete>
+
+</mapper>

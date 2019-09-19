@@ -7,5 +7,5 @@ package com.funtl.my.shop.commons.constant;
  * @createDate 2019/5/24
  */
 public class ConstantUtils {
-  public static final String SESSION_USER = "user";
+  public static final String SESSION_USER = "currentUser";
 }

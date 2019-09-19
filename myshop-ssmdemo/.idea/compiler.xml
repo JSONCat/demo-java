@@ -30,7 +30,7 @@
       <module name="my-shop-web-admin" target="1.8" />
       <module name="my-shop-web-api" target="1.8" />
       <module name="my-shop-web-ui" target="1.8" />
-      <module name="myshop" target="1.7" />
+      <module name="myshop" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

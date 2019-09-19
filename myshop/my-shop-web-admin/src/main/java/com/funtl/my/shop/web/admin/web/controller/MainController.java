@@ -14,11 +14,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @createDate 2019/5/21
  */
 @Controller
+@RequestMapping("/main")
 public class MainController {
   @Autowired
   private TbUserService tbUserService;
   
-  @RequestMapping(value = "/main", method = RequestMethod.GET)
+  @RequestMapping(value = "", method = RequestMethod.GET)
   public String main(){
     
     return "main";
